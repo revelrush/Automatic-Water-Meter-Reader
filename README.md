@@ -1,6 +1,6 @@
 # Automatic-Water-Meter-Reader
 
-The official repository for the Automated Water Meter Reading Through Image Recognition project by Concio et al. for TENCON 2022
+This is the official repository for the Automated Water Meter Reading Through Image Recognition project by Concio et al. for TENCON 2022
 
 ## About the Project
 In many parts of the world, water utility companies still heavily rely on manual meter reading, requiring readings to be transcribed by hand, which is inefficient and leaves room for human errors. Smart metering infrastructures have been proposed as a solution, but while effective and convenient, are costly and impractical to implement on a broader scale. This work presents a solution compatible with the existing infrastructure using image recognition techniques to create an end-to-end system for automated water meter reading. This repository covers the codebase for the automated image recognition pipeline created by the project proponents to extract the meter reading value from an image of a water meter.
