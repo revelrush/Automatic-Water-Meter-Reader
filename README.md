@@ -1,6 +1,5 @@
 # Automatic-Water-Meter-Reader
 
-## About
 The official repository for the Automated Water Meter Reading Through Image Recognition project by Concio et al. for TENCON 2022
 
 ## About the Project
