@@ -19,7 +19,7 @@ The study used two open-access image datasets to train and test the deep learnin
 2. Download the model weights for the deep learnig models utilized [here](https://drive.google.com/file/d/1cR7rT8JEVS6iYMnm5x-ewDNTKNfmeuox/view?usp=sharing), unzip the files and put into the working directory. Afterwards, edit Image-Based AMR.py with the respective location of these files.
 3. Run Image-Based AMR.py, afterwards indicate the image to be processed, the number of digits and the number of whole digits. In addition to outputting the meter reading value, an image file for the processed image will be also created for the user to view, like so:
 
-<img src="sample out.jpg" width=400px />
+<img src="sample out.png" width=400px />
 
 ## Acknowledgements
 In addition to the codebases and datasets mentioned thus far, the [deskew library](https://github.com/sbrunner/deskew) by sbrunner was also used during post processing. The research folder was taken from the TensorFlow Object Detection API, the project does not claim ownership of its contents in any way, its inclusion is merely for convenience.
