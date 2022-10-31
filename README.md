@@ -14,8 +14,13 @@ The pipeline follows the architechture laid out by past works on image based aut
 ## Image Datasets Used
 The study used two open-access image datasets to train and test the deep learning models within the pipeline. The primary dataset utilized was created by Roman K. called the [Water Meters Dataset](https://www.kaggle.com/datasets/tapakah68/yandextoloka-water-meters-dataset) consisting of 1244 images of water meters with the meter counter within each image completely annotated, and was also partially annotated by [Olivier K.](https://www.kaggle.com/datasets/merrickolivier/water-meter-ocr-images) which added individual annotations for each digit within the meter counter to some of the images. The secondary dataset utilized was the [UFPR-AMR Dataset](https://web.inf.ufpr.br/vri/databases/ufpr-amr/) created by Laroca et al., which was used to train an image-based electric meter reader, which consists of 2,000 images of electrical meters, all with annotations for the meter counter and the meter digits.  
 
+## How-to
+1. Install all the required libraries listed in requirements.txt. The command pip install -r requirements.txt can be used to install everything.
+2. Download the model weights for the deep learnig models utilized [here](https://drive.google.com/file/d/1cR7rT8JEVS6iYMnm5x-ewDNTKNfmeuox/view?usp=sharing)
+3. Run Image-Based AMR.py, afterwards indicate the image to be processed, the number of digits and the number of whole digits. In addition to outputting the meter reading value, an image file for the processed image will be also created for the user to view.
+
 ## Acknowledgements
-In addition to the codebases and datasets mentioned thus far, the [deskew library](https://github.com/sbrunner/deskew) by sbrunner was also used during post processing.
+In addition to the codebases and datasets mentioned thus far, the [deskew library](https://github.com/sbrunner/deskew) by sbrunner was also used during post processing. The research folder was taken from the TensorFlow Object Detection API, the project does not claim ownership of its contents in any way, its inclusion is merely for convenience.
 
 ## Miscellaneous
 The conference paper can be found in IEEE (link to be added), and a full, more in-depth version of the paper is available in the repository for those interested. 
