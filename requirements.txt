@@ -1,0 +1,8 @@
+cv2
+numpy
+tf
+matplotlib
+deskew
+scipy
+segmentation_models
+PIL
