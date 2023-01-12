@@ -25,4 +25,4 @@ The study used two open-access image datasets to train and test the deep learnin
 In addition to the codebases and datasets mentioned thus far, the [deskew library](https://github.com/sbrunner/deskew) by sbrunner was also used during post processing. The research folder was taken from the TensorFlow Object Detection API, the project does not claim ownership of its contents in any way, its inclusion is merely for convenience.
 
 ## Miscellaneous
-The conference paper can be found in IEEE (https://ieeexplore.ieee.org/document/9977678), and a full, more in-depth version of the paper is available in the repository for those interested. 
+The conference paper can be found in [IEEEx] (https://ieeexplore.ieee.org/document/9977678), and a full, more in-depth version of the paper is available in the repository for those interested. 
