@@ -14,6 +14,12 @@ The pipeline follows the architechture laid out by past works on image based aut
 ## Image Datasets Used
 The study used two open-access image datasets to train and test the deep learning models within the pipeline. The primary dataset utilized was created by Roman K. called the [Water Meters Dataset](https://www.kaggle.com/datasets/tapakah68/yandextoloka-water-meters-dataset) consisting of 1244 images of water meters with the meter counter within each image completely annotated, and was also partially annotated by [Olivier K.](https://www.kaggle.com/datasets/merrickolivier/water-meter-ocr-images) which added individual annotations for each digit within the meter counter to some of the images. The secondary dataset utilized was the [UFPR-AMR Dataset](https://web.inf.ufpr.br/vri/databases/ufpr-amr/) created by Laroca et al., which was used to train an image-based electric meter reader, which consists of 2,000 images of electrical meters, all with annotations for the meter counter and the meter digits.  
 
+### PH Meters Dataset
+In addition to the open-source datasets, the authors manually collected and compiled a new dataset of 107 unique images of water meters of various types found within the local area. This dataset, named the PH Meters Dataset, had all the meter reading values of the images compiled in a spreadsheet, but the images were not annotated in any form. It was only used for the validation of the complete pipeline and was not used during training due to its small sample size and lack of annotations due to time constraints. The dataset will not be made open online since some of the meters in the images still contain private information (ie. meter number), contact the authors if you wish to obtain the dataset.
+
+![image](https://github.com/revelrush/Automatic-Water-Meter-Reader/assets/84671795/da9c04ff-c2bc-414e-b734-4e28767ba65a)
+
+
 ## How-to
 1. Install all the required libraries listed in requirements.txt. The command pip install -r requirements.txt can be used to install everything.
 2. Download the model weights for the deep learning models utilized [here](https://drive.google.com/file/d/1cR7rT8JEVS6iYMnm5x-ewDNTKNfmeuox/view?usp=sharing), unzip the files and put into the working directory. Afterwards, edit Image-Based AMR.py with the respective location of these files.
