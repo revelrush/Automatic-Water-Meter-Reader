@@ -20,10 +20,16 @@ In addition to the open-source datasets, the authors manually collected and comp
 ![image](https://github.com/revelrush/Automatic-Water-Meter-Reader/assets/84671795/da9c04ff-c2bc-414e-b734-4e28767ba65a)
 
 
-## How-to
+## Usage
 1. Install all the required libraries listed in requirements.txt. The command pip install -r requirements.txt can be used to install everything.
-2. Download the model weights for the deep learning models utilized [here](https://drive.google.com/file/d/1cR7rT8JEVS6iYMnm5x-ewDNTKNfmeuox/view?usp=sharing), unzip the files and put into the working directory. Afterwards, edit Image-Based AMR.py with the respective location of these files.
-3. Run Image-Based AMR.py, afterwards indicate the image to be processed, the number of digits and the number of whole digits. In addition to outputting the meter reading value, an image file for the processed image will be also created for the user to view, like so:
+2. Download the model weights for the deep learning models utilized [here](https://drive.google.com/file/d/1cR7rT8JEVS6iYMnm5x-ewDNTKNfmeuox/view?usp=sharing), unzip the files and put into the working directory. Afterwards, edit main.py with the respective location of these and other necessary files.
+3. main.py using the following format:
+   
+   main.py -n filename.png -w 5 -d 8
+   
+   where w is the number of whole/black digits in your water meter and d is the number of total digits, you may use the -h command for more information
+  
+   In addition to outputting the meter reading value on the terminal, an image file for the processed image will be also created for the user to view (it should be saved as filename_processed.png), like so:
 
 <img src="sample out.png" width=400px />
 
