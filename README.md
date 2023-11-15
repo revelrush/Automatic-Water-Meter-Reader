@@ -20,7 +20,7 @@ In addition to the open-source datasets, the authors manually collected and comp
 ![image](https://github.com/revelrush/Automatic-Water-Meter-Reader/assets/84671795/da9c04ff-c2bc-414e-b734-4e28767ba65a)
 
 
-## How-to
+## Usage
 1. Install all the required libraries listed in requirements.txt. The command pip install -r requirements.txt can be used to install everything.
 2. Download the model weights for the deep learning models utilized [here](https://drive.google.com/file/d/1cR7rT8JEVS6iYMnm5x-ewDNTKNfmeuox/view?usp=sharing), unzip the files and put into the working directory. Afterwards, edit main.py with the respective location of these and other necessary files.
 3. main.py using the following format:
